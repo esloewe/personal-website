@@ -14,14 +14,14 @@ export default class Navigation extends React.Component {
                 <div>
                     <ul className="nav-items">
                         <Link to="/about" className="nav-link">
-                            about
+                            About
                         </Link>
                         <Link to="/projects" className="nav-link">
                             {" "}
-                            personal projects
+                            Personal Projects
                         </Link>
                         <Link to="contact" className="nav-link">
-                            contact
+                            Contact
                         </Link>
                     </ul>
                 </div>

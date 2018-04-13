@@ -51,13 +51,28 @@ export default class PersonalProjects extends React.Component {
                                     className="links-projects-a"
                                     href="https://petition-fashion-sustain.herokuapp.com/"
                                 >
-                                    Heroku Site
+                                    The Website
                                 </a>
                             </div>
                         </div>
                         <div className="single-project-container">
                             <h2>Connect Four Game</h2>
                             <img src={connectFour} alt="" />
+                            <div className="links-projects">
+                                <a
+                                    className="links-projects-a"
+                                    href="https://github.com/esloewe/connect-four-game"
+                                >
+                                    Github
+                                </a>
+
+                                <a
+                                    className="links-projects-a"
+                                    href="https://esloewe.github.io/connect-four-game/index.html"
+                                >
+                                    The Website
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -19,14 +19,15 @@
 }
 
 #logo {
-    font-size: 56px;
+    font-size: 60px;
     background: linear-gradient(
-        145deg,
+        120deg,
         #ee7752,
         #e73c7e,
-        #e8b0cb,
-        #c4e8ed,
-        #fb6b3f
+        #bfeff6,
+        #f1c0eb,
+        #fb6b3f,
+        #ff0efd
     );
     background-size: 400% 400%;
     color: transparent;

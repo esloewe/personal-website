@@ -7,7 +7,14 @@ export default class Contact extends React.Component {
             <div className="contact-container">
                 <h1 className="titles">Contact me</h1>
                 <div id="info-contact">
-                    <h2>estloewenberg@gmail.com</h2>
+                    <h2>
+                        <a
+                            id="email-send"
+                            href="mailto:estloewenberg@gmail.com"
+                        >
+                            estloewenberg@gmail.com
+                        </a>
+                    </h2>
                     <div id="social-links-container">
                         <h3>Find me on:</h3>
                         <a href="https://github.com/esloewe">

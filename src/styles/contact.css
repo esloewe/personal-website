@@ -22,3 +22,11 @@ i {
 i:hover {
     color: #f25bba;
 }
+
+#email-send {
+    font-size: 24px;
+}
+
+#email-send:hover {
+    font-size: 22px;
+}

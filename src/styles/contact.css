@@ -1,0 +1,24 @@
+.contact-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 600px;
+    margin-top: 40px;
+}
+
+#info-contact {
+    text-align: center;
+}
+
+#social-links-container {
+    margin-top: 60px;
+}
+
+i {
+    padding: 20px;
+    font-size: 40px;
+}
+
+i:hover {
+    color: #f25bba;
+}

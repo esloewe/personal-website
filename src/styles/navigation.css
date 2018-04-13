@@ -1,0 +1,58 @@
+.nav-container {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: 200px 1fr;
+    justify-items: end;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 30px;
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+}
+
+.nav-items {
+    list-style-type: none;
+}
+
+#logo {
+    font-size: 56px;
+    background: linear-gradient(
+        145deg,
+        #ee7752,
+        #e73c7e,
+        #e8b0cb,
+        #c4e8ed,
+        #fb6b3f
+    );
+    background-size: 400% 400%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bold;
+    animation: Gradient 11s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-items a:hover {
+    text-decoration: underline;
+}

@@ -10,7 +10,9 @@
 .nav-link {
     display: inline-block;
     padding: 30px;
+    margin-top: 30px;
     font-size: 18px;
+    align-self: end;
 }
 
 .nav-items {

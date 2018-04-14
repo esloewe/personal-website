@@ -14,7 +14,7 @@ export default class PersonalProjects extends React.Component {
                     <div>
                         <div className="single-project-container">
                             <h2>Imageboard Project</h2>
-                                <video width="1000" height="700" controls="controls">
+                                <video width="1000" height="auto" controls="controls">
                                     <source src= {imageboard} type="video/mp4"/>
                                 </video>
                             <div className="links-projects">
@@ -30,7 +30,7 @@ export default class PersonalProjects extends React.Component {
                         <div className="single-project-container">
                             <h2>Shopping Site Project</h2>
 
-                                <video width="1000" height="700" controls="controls">
+                                <video width="1000" height="auto" controls="controls">
                                     <source src= {shoppingVideo} type="video/mp4"/>
                                 </video>
 

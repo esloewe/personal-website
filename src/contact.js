@@ -18,13 +18,13 @@ export default class Contact extends React.Component {
                     <div id="social-links-container">
                         <h3>Find me on:</h3>
                         <a href="https://github.com/esloewe">
-                            <i class="fab fa-github" />
+                            <i className="fab fa-github" />
                         </a>
                         <a href="https://www.linkedin.com/in/estefanialoewenberg/">
-                            <i class="fab fa-linkedin" />
+                            <i className="fab fa-linkedin" />
                         </a>
                         <a href="https://www.instagram.com/esloewe/">
-                            <i class="fab fa-instagram" />
+                            <i className="fab fa-instagram" />
                         </a>
                     </div>
                 </div>

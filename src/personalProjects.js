@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles/personalProjects.css";
-const imageboard = require("./media/imageboard.gif");
+const imageboard = require("./media/imageboard.mp4");
 const petition = require("./media/petition-site.png");
-const shopping = require("./media/shopping-site.gif");
+const shoppingVideo = require("./media/shopping-site.mp4")
 const connectFour = require("./media/connect-four-game.png");
 
 export default class PersonalProjects extends React.Component {
@@ -14,7 +14,9 @@ export default class PersonalProjects extends React.Component {
                     <div>
                         <div className="single-project-container">
                             <h2>Imageboard Project</h2>
-                            <img src={imageboard} alt="" />
+                                <video width="1000" height="700" controls="controls">
+                                    <source src= {imageboard} type="video/mp4"/>
+                                </video>
                             <div className="links-projects">
                                 <a
                                     className="links-projects-a"
@@ -27,7 +29,11 @@ export default class PersonalProjects extends React.Component {
                         </div>
                         <div className="single-project-container">
                             <h2>Shopping Site Project</h2>
-                            <img src={shopping} alt="" />
+
+                                <video width="1000" height="700" controls="controls">
+                                    <source src= {shoppingVideo} type="video/mp4"/>
+                                </video>
+
                             <div className="links-projects">
                                 <a
                                     className="links-projects-a"

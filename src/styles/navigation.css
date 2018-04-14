@@ -11,7 +11,6 @@
     display: inline-block;
     padding: 30px;
     font-size: 18px;
-    font-family: "Roboto Slab", serif;
 }
 
 .nav-items {
@@ -35,6 +34,8 @@
     background-clip: text;
     font-weight: bold;
     animation: Gradient 11s ease infinite;
+    letter-spacing: 0px;
+
 }
 
 @-webkit-keyframes Gradient {
@@ -56,4 +57,42 @@ a {
 
 .nav-items a:hover {
     text-decoration: underline;
+}
+
+.fa-bars {
+    display: none;
+}
+
+
+@media screen and (max-width: 750px) {
+    #logo {
+        font-size: 40px;
+    }
+
+    .nav-container {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 100px 1fr;
+
+    }
+
+    .nav-link {
+        display: none;
+        overflow: hidden;
+        padding: 16px;
+        font-size: 22px;
+        text-align: center;
+        z-index: 500;
+        transition: .25s ease-in-out;
+    }
+
+    .fa-bars {
+        display: block;
+        padding-left: 40px;
+        padding-top: 39px;
+        margin-left: 80px;
+        font-size: 32px;
+
+    }
+
 }

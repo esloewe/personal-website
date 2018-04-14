@@ -16,9 +16,7 @@ export default class About extends React.Component {
                         of my career in web development. Originally from
                         Honduras, I have been living in different countries for
                         the past 9 years. Besides my interest in tech I enjoy
-                        practicing yoga and meditation. I am looking to work in
-                        a innovative company with strong values and freedom for
-                        creative problem solving and learning opportunities.
+                        practicing yoga and meditation. 
                     </p>
                 </div>
             </div>

@@ -2,12 +2,14 @@
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
+    "homepage" : "http://esloewe.github.io/personal-website",
     "dependencies": {
         "nodemailer": "^4.6.4",
         "react": "^16.3.1",
         "react-dom": "^16.3.1",
         "react-router-dom": "^4.2.2",
         "react-scripts": "1.1.4"
+
     },
     "scripts": {
         "start": "react-scripts start",

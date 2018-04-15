@@ -17,6 +17,11 @@
 
 }
 
+.mobile-info {
+    text-align: center;
+    display: none;
+}
+
 @media screen and (max-width: 750px) {
     .main-container {
             margin-top: 20px;
@@ -41,5 +46,11 @@
         color: rgba(96, 95, 95, 0.7);
         margin-top: 30px;
 
+    }
+
+    .mobile-info {
+        text-align: center;
+        display: block;
+        color: #6bf4f4;
     }
 }

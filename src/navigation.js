@@ -20,7 +20,7 @@ export default class Navigation extends React.Component {
         return (
             <div className="nav-container">
                 <div>
-                    <Link to="/">
+                    <Link to="/personal-website">
                         <h1 id="logo">esloewe</h1>
                     </Link>
                 </div>

@@ -4,6 +4,7 @@ const imageboard = require("./media/imageboard.mp4");
 const petition = require("./media/petition-site.png");
 const shoppingVideo = require("./media/shopping-site.mp4")
 const connectFour = require("./media/connect-four-game.png");
+const socialNetwork = require("./media/social-network.png")
 
 export default class PersonalProjects extends React.Component {
     render() {
@@ -58,6 +59,18 @@ export default class PersonalProjects extends React.Component {
                                     href="https://petition-fashion-sustain.herokuapp.com/"
                                 >
                                     The Website
+                                </a>
+                            </div>
+                        </div>
+                        <div className="single-project-container">
+                            <h2>Social Network Project</h2>
+                            <img src={socialNetwork} alt="" />
+                            <div className="links-projects">
+                                <a
+                                    className="links-projects-a"
+                                    href="https://github.com/esloewe/social-network"
+                                >
+                                    Github
                                 </a>
                             </div>
                         </div>

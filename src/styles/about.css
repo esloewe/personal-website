@@ -9,3 +9,11 @@
 #p-about {
     line-height: 1.9;
 }
+
+#reach-out{
+    font-weight: bold;
+}
+
+#reach-out:hover{
+    color: #f25bba;
+}

@@ -87,7 +87,7 @@ export default class PersonalProjects extends React.Component {
 
                                 <a
                                     className="links-projects-a"
-                                    href="https://esloewe.github.io/connect-four-game/index.html"
+                                    href="https://esloewe.github.io/connect-four-game/"
                                 >
                                     The Website
                                 </a>

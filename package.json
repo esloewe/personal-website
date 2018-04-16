@@ -2,7 +2,8 @@
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://www.esloewe.com/",
+    "url": "http://www.esloewe.com/",
+    "homepage": "https://esloewe.github.io/personal-website/",
     "dependencies": {
         "nodemailer": "^4.6.4",
         "react": "^16.3.1",

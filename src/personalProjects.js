@@ -3,7 +3,7 @@ import "./styles/personalProjects.css";
 const imageboard = require("./media/imageboard.mp4");
 const petition = require("./media/petition-site.png");
 const shoppingVideo = require("./media/shopping-site.mp4")
-const connectFour = require("./media/connect-four-game.png");
+const connectFour = require("./media/connect-four.png");
 const socialNetwork = require("./media/social-network.png")
 
 export default class PersonalProjects extends React.Component {

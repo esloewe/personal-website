@@ -1,6 +1,11 @@
 {
   "main.css": "static/css/main.a97a1841.css",
   "main.css.map": "static/css/main.a97a1841.css.map",
-  "main.js": "static/js/main.e5447d53.js",
-  "main.js.map": "static/js/main.e5447d53.js.map"
+  "main.js": "static/js/main.9fda8073.js",
+  "main.js.map": "static/js/main.9fda8073.js.map",
+  "static/media/connect-four.png": "static/media/connect-four.a1795848.png",
+  "static/media/imageboard.mp4": "static/media/imageboard.272317a1.mp4",
+  "static/media/petition-site.png": "static/media/petition-site.dd3ef3fc.png",
+  "static/media/shopping-site.mp4": "static/media/shopping-site.189986dc.mp4",
+  "static/media/social-network.png": "static/media/social-network.1b0bccb2.png"
 }

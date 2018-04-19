@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles/personalProjects.css";
-const imageboard = require("./media/imageboard.mp4");
+{/*const imageboard = require("./media/imageboard.mp4");
 const petition = require("./media/petition-site.png");
 const shoppingVideo = require("./media/shopping-site.mp4")
 const connectFour = require("./media/connect-four.png");
-const socialNetwork = require("./media/social-network.png")
+const socialNetwork = require("./media/social-network.png")*/}
 
 export default class PersonalProjects extends React.Component {
     render() {
@@ -16,7 +16,7 @@ export default class PersonalProjects extends React.Component {
                         <div className="single-project-container">
                             <h2>Imageboard Project</h2>
                                 <video width="1000" height="auto" controls="controls">
-                                    <source src= {imageboard} type="video/mp4"/>
+                                    {/*<source src= {imageboard} type="video/mp4"/>*/}
                                 </video>
                             <div className="links-projects">
                                 <a
@@ -32,7 +32,7 @@ export default class PersonalProjects extends React.Component {
                             <h2>Shopping Site Project</h2>
 
                                 <video width="1000" height="auto" controls="controls">
-                                    <source src= {shoppingVideo} type="video/mp4"/>
+                                    {/*<source src= {shoppingVideo} type="video/mp4"/>*/}
                                 </video>
 
                             <div className="links-projects">
@@ -46,7 +46,7 @@ export default class PersonalProjects extends React.Component {
                         </div>
                         <div className="single-project-container">
                             <h2>Petition Project</h2>
-                            <img src={petition} alt="" />
+                            {/*<img src={petition} alt="" />*/}
                             <div className="links-projects">
                                 <a
                                     className="links-projects-a"
@@ -64,7 +64,7 @@ export default class PersonalProjects extends React.Component {
                         </div>
                         <div className="single-project-container">
                             <h2>Social Network Project</h2>
-                            <img src={socialNetwork} alt="" />
+                            {/*<img src={socialNetwork} alt="" />*/}
                             <div className="links-projects">
                                 <a
                                     className="links-projects-a"
@@ -76,7 +76,7 @@ export default class PersonalProjects extends React.Component {
                         </div>
                         <div className="single-project-container">
                             <h2>Connect Four Game</h2>
-                            <img src={connectFour} alt="" />
+                            {/*<img src={connectFour} alt="" />*/}
                             <div className="links-projects">
                                 <a
                                     className="links-projects-a"

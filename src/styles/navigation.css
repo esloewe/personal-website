@@ -79,7 +79,6 @@ a {
     }
 
     .nav-link {
-        display: none;
         overflow: hidden;
         padding: 16px;
         font-size: 22px;

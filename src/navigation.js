@@ -13,7 +13,7 @@ export default class Navigation extends React.Component {
 
     toggleMenu(e) {
         e.preventDefault();
-        this.setState({ showMenuMobile: this.state.showMenuMobile });
+        this.setState({ showMenuMobile: !this.state.showMenuMobile });
     }
 
     render() {

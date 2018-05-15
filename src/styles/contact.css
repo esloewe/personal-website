@@ -30,3 +30,18 @@ i:hover {
 #email-send:hover {
     font-size: 22px;
 }
+
+@media screen and (max-width: 700px) {
+    .contact-container {
+        grid-template-columns: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #email-send {
+        font-size: 20px;
+    }
+    #info-contact {
+        margin-top: 30px;
+    }
+}

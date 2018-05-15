@@ -8,7 +8,7 @@
 
 .single-project-container {
     padding: 30px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #444;
     border-radius: 18px;
     margin: 50px;
 }
@@ -36,4 +36,35 @@
 .links-projects {
     margin-top: 70px;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .projects-container {
+        grid-template-columns: repeat(auto-fill, minmax(300px));
+        overflow-x: hidden;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    video {
+        width: 320px;
+        margin: 0px;
+    }
+
+    .single-project-container img {
+        width: 320px;
+        margin: 0px;
+    }
+
+    .single-project-container {
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .links-projects-a {
+        font-size: 14px;
+        padding: 7px;
+        border: 1px solid #333;
+        box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.1);
+    }
 }

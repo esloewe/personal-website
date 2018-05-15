@@ -12,3 +12,9 @@ body {
 .titles {
     border-bottom: 0.8px dotted #333;
 }
+
+@media screen and (max-width: 700px) {
+    .titles {
+        font-size: 20px;
+    }
+}

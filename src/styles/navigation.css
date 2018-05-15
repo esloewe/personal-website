@@ -19,7 +19,7 @@
     list-style-type: none;
 }
 
-#logo {
+.logo {
     font-size: 60px;
     background: linear-gradient(
         120deg,
@@ -37,7 +37,6 @@
     font-weight: bold;
     animation: Gradient 11s ease infinite;
     letter-spacing: 0px;
-
 }
 
 @-webkit-keyframes Gradient {
@@ -61,39 +60,39 @@ a {
     text-decoration: underline;
 }
 
-.fa-bars {
-    display: none;
+.menu-hidden {
+    visibility: hidden;
 }
 
+Mobile version -----------------------------------------------//
 
-@media screen and (max-width: 750px) {
-    #logo {
-        font-size: 40px;
-    }
+.mobile-nav-container {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    margin: 0;
+    overflow-x: hidden;
+}
 
-    .nav-container {
-        margin-top: 10px;
-        display: grid;
-        grid-template-columns: 100px 1fr;
+.mobile-logo {
+    font-size: 40px;
+    margin-right: 110px;
+}
 
-    }
+.fa-bars {
+    display: block;
+    padding-top: 39px;
+    font-size: 32px;
+    margin-left: 10px;
+}
 
-    .nav-link {
-        overflow: hidden;
-        padding: 16px;
-        font-size: 22px;
-        text-align: center;
-        z-index: 500;
-        transition: .25s ease-in-out;
-    }
+.nav-items-mobile {
+    text-align: right;
+    font-size: 22px;
+}
 
-    .fa-bars {
-        display: block;
-        padding-left: 40px;
-        padding-top: 39px;
-        margin-left: 80px;
-        font-size: 32px;
-
-    }
-
+.nav-link-mobile {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
 }

@@ -10,9 +10,9 @@ export default class MainInfo extends React.Component {
     render() {
         return (
             <div className="main-container">
-                <p id="info">Full-Stack Web Developer based in Berlin</p>
+                <p id="info">Web Developer based in Berlin</p>
                 <p id="technologies">
-                    Node.js | React.js | Redux | Vue.js | Javascript | HTML5 &
+                    React.js | Javascript | HTML5 &
                     CSS3{" "}
                 </p>
             </div>

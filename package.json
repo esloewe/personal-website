@@ -5,7 +5,7 @@
     "homepage": "https://esloewe.github.io/personal-website/",
     "dependencies": {
         "gh-pages": "^1.1.0",
-        "nodemailer": "^4.6.4",
+        "nodemailer": "^6.4.16",
         "react": "^16.3.1",
         "react-dom": "^16.3.1",
         "react-responsive": "^4.1.0",
